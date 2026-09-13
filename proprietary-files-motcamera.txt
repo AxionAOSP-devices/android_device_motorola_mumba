@@ -29,6 +29,7 @@ product/etc/permissions/com.motorola.moto-uirefresh.xml
 # Camera postprocessing & linker
 system_ext/etc/public.libraries-moto.txt
 system_ext/lib64/libenginepostproc.moto.so
+system_ext/lib64/libmotopostprocaidlclient.so
 
 # MotCamera5 configs & init
 product/etc/init/init.motcamera5.lens.rc
