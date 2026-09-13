@@ -1,0 +1,2 @@
+allow platform_app cgroup_v2:dir search;
+find_service(platform_app, hal_motorola_camera_postproc_service)

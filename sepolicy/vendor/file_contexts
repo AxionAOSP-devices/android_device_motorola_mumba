@@ -3,6 +3,12 @@
 
 /(vendor|system/vendor)/lib(64)?/libanc_hdr\.so    u:object_r:same_process_hal_file:s0
 
+/system_ext/lib64/libmotopostprocaidlclient\.so    u:object_r:same_process_hal_file:s0
+
+/vendor/lib64/aidl_hdcp_interface-V1-ndk\.so                          u:object_r:same_process_hal_file:s0
+/vendor/lib64/android\.frameworks\.cameraservice\.common-V1-ndk\.so   u:object_r:same_process_hal_file:s0
+/vendor/lib64/android\.frameworks\.cameraservice\.device-V3-ndk\.so   u:object_r:same_process_hal_file:s0
+
 # Partition Mountpoints
 /bt_firmware(/.*)?                                      u:object_r:bt_firmware_file:s0
 /dsp(/.*)?                                              u:object_r:adsprpcd_file:s0
